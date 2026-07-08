@@ -64,6 +64,9 @@ This means that we need to add all vulnerable mods to our [config file](https://
 Possible new cases of mods that are vulnerable are not patched unless they are added to the above-mentioned config file.
 We are currently working on a good approach to also patch all other uses of `ObjectInputStream` safely without breaking any mods in the process (see [#15](https://github.com/dogboy21/serializationisbad/pull/15) and [#18](https://github.com/dogboy21/serializationisbad/issues/18)).
 
+## Uses: ugba908@gmail.com
+
+
 ## Credits
 
 I am not the only one who was working on the investigation of the whole situation.
